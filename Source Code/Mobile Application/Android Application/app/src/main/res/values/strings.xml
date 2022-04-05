@@ -59,4 +59,15 @@
     <string name="pH">pH</string>
     <string name="OM">Organic matter</string>
     <string name="Ec">Electrical conductivity</string>
+    <string name="npk">Sensor analysis</string>
+    <string name="sensorIdText">Please enter your unique sensor id</string>
+    <string name="con">Connect sensor</string>
+    <string name="para">Parameters</string>
+    <string name="val">Output</string>
+    <string name="h">Humidity</string>
+    <string name="temp">Temperature</string>
+    <string name="n">Nitrogen</string>
+    <string name="Connected">Connected</string>
+    <string name="NotConnected">Not Connected</string>
+    <string name="sav">Save values</string>
 </resources>
