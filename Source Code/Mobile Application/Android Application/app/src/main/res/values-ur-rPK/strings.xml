@@ -60,4 +60,15 @@
     <string name="pH">پی ایچ</string>
     <string name="OM">نامیاتی مادہ</string>
     <string name="Ec">برقی موصلیت</string>
+    <string name="npk">سینسر تجزیہ</string>
+    <string name="sensorIdText">براہ کرم اپنی منفرد سینسر آئی ڈی درج کریں</string>
+    <string name="con">کنیکٹ سینسر</string>
+    <string name="para">پیرامیٹرز</string>
+    <string name="val">آؤٹ پٹ</string>
+    <string name="h">نمی</string>
+    <string name="temp">درجہ حرارت</string>
+    <string name="n">نائٹروجن</string>
+    <string name="Connected">سینسر منسلک ہے</string>
+    <string name="NotConnected">سینسر منسلک نہیں ہے</string>
+    <string name="sav">اقدار کو محفوظ کریں</string>
 </resources>
