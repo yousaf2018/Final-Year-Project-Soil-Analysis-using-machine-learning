@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ReportGeneration">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/white"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/titleReport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:shadowColor="@color/white"
+                    android:text="@string/titleReport"
+                    android:textColor="@color/purple_700"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:background="@color/purple_500"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nutrient"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Desc"
+                    android:background="@color/purple_500"
+                    android:textColor="@color/white"
+                    android:layout_weight="2"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#F6F8F8"
+                    android:gravity="center"
+                    android:text="@string/Phos"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/pTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="#FF9800"
+                    android:padding="5dp"
+                    android:text="Relayout returned: old=(0,0,1080,2220) new=(0,0,1080,2220) req=(1080,2220)8 dur=7 res=0x5 s={false 0} ch=false
+2022-03-29 12:23:43.485 29285-29285/com.example.meri_zameen I/ViewRootImpl@7d2ba88[ImageAnalysis]: MSG_WINDOW_FOCUS_CHANGED 0 1"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#F6F8F8"
+                    android:gravity="center"
+                    android:text="@string/pH"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/phTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="5dp"
+                    android:background="#FF9800"
+                    android:text="Relayout returned: old=(0,0,1080,2220) new=(0,0,1080,2220) req=(1080,2220)8 dur=7 res=0x5 s={false 0} ch=false
+2022-03-29 12:23:43.485 29285-29285/com.example.meri_zameen I/ViewRootImpl@7d2ba88[ImageAnalysis]: MSG_WINDOW_FOCUS_CHANGED 0 1"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#F6F8F8"
+                    android:gravity="center"
+                    android:text="@string/OM"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/omTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="#FF9800"
+                    android:padding="5dp"
+                    android:text="Relayout returned: old=(0,0,1080,2220) new=(0,0,1080,2220) req=(1080,2220)8 dur=7 res=0x5 s={false 0} ch=false
+2022-03-29 12:23:43.485 29285-29285/com.example.meri_zameen I/ViewRootImpl@7d2ba88[ImageAnalysis]: MSG_WINDOW_FOCUS_CHANGED 0 1"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#F6F8F8"
+                    android:gravity="center"
+                    android:text="@string/Ec"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/ecTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="#FF9800"
+                    android:padding="5dp"
+                    android:text="Relayout returned: old=(0,0,1080,2220) new=(0,0,1080,2220) req=(1080,2220)8 dur=7 res=0x5 s={false 0} ch=false
+2022-03-29 12:23:43.485 29285-29285/com.example.meri_zameen I/ViewRootImpl@7d2ba88[ImageAnalysis]: MSG_WINDOW_FOCUS_CHANGED 0 1"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/Home"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Home" />
+            </TableRow>
+        </TableLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

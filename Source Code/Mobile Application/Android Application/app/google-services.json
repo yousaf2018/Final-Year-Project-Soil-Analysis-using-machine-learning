@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "139021870833",
+    "project_id": "meri-zameen-9faef",
+    "storage_bucket": "meri-zameen-9faef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139021870833:android:fc32252625a47bc7d46b50",
+        "android_client_info": {
+          "package_name": "com.example.meri_zameen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139021870833-me7al2vg6ncdj8ujq55929ftkegfsb6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEqPSg3kOQDG4lQqRJQExe-qbyyr93jzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139021870833-me7al2vg6ncdj8ujq55929ftkegfsb6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
