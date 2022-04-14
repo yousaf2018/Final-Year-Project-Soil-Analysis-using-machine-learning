@@ -76,7 +76,7 @@ public class Login extends AppCompatActivity {
                                 Toast.makeText(getApplicationContext(), "Login Successfully", Toast.LENGTH_LONG).show();
                                 SharedPreferences sharedPreferences = getSharedPreferences(SHRED_PREF,MODE_PRIVATE);
                                 SharedPreferences.Editor editor= sharedPreferences.edit();
-                                Toast.makeText(getApplicationContext(),""+emailAddress.getText().toString(),Toast.LENGTH_LONG).show();
+//                                Toast.makeText(getApplicationContext(),""+emailAddress.getText().toString(),Toast.LENGTH_LONG).show();
                                 editor.putString(Save_Email,emailAddress.getText().toString());
                                 editor.apply();
                                 startActivity(new Intent(getApplicationContext(), SensorDashboard.class));

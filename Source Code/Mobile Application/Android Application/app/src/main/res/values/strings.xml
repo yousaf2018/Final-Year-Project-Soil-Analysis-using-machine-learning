@@ -61,7 +61,7 @@
     <string name="Ec">Electrical conductivity</string>
     <string name="npk">Sensor analysis</string>
     <string name="sensorIdText">Please enter your unique sensor id</string>
-    <string name="con">Connect sensor</string>
+    <string name="con">Connect</string>
     <string name="para">Parameters</string>
     <string name="val">Output</string>
     <string name="h">Humidity</string>
@@ -70,4 +70,8 @@
     <string name="Connected">Connected</string>
     <string name="NotConnected">Not Connected</string>
     <string name="sav">Save values</string>
+    <string name="saveText">Please enter unique id to save current values</string>
+    <string name="k">Potassium</string>
+    <string name="show">Show</string>
+    <string name="savedValues">Saved records</string>
 </resources>

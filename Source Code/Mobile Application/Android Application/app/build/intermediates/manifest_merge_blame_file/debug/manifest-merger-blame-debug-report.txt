@@ -1,0 +1,290 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.meri_zameen"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:8:5-65
+14-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:8:22-62
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+16
+17    <application
+17-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:10:5-61:19
+18        android:allowBackup="true"
+18-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\32f9516c501cf8285e6b639d31c0f753\core-1.7.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:14:9-54
+24        android:screenOrientation="portrait"
+24-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:18:9-45
+25        android:supportsRtl="true"
+25-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:15:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.MeriZameen"
+27-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:16:9-48
+28        android:usesCleartextTraffic="true"
+28-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:17:9-44
+29        android:windowSoftInputMode="adjustPan|adjustResize" >
+29-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:19:9-61
+30        <activity
+30-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:20:9-23:20
+31            android:name="com.example.meri_zameen.DisplaySavedSensorValues"
+31-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:20:19-59
+32            android:screenOrientation="portrait" >
+32-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:21:13-49
+33        </activity>
+34        <activity
+34-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:24:9-27:20
+35            android:name="com.example.meri_zameen.SensorDashboard"
+35-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:24:19-50
+36            android:screenOrientation="portrait" >
+36-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:25:13-49
+37        </activity>
+38        <activity
+38-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:28:9-31:20
+39            android:name="com.example.meri_zameen.Signup"
+39-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:28:19-41
+40            android:screenOrientation="portrait" >
+40-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:29:13-49
+41        </activity>
+42        <activity
+42-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:32:9-35:20
+43            android:name="com.example.meri_zameen.Login"
+43-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:32:19-40
+44            android:screenOrientation="portrait" >
+44-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:33:13-49
+45        </activity>
+46        <activity
+46-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:36:9-39:20
+47            android:name="com.example.meri_zameen.ReportGeneration"
+47-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:36:19-51
+48            android:screenOrientation="portrait" >
+48-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:37:13-49
+49        </activity>
+50        <activity
+50-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:40:9-43:20
+51            android:name="com.example.meri_zameen.Home"
+51-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:40:19-39
+52            android:screenOrientation="portrait" >
+52-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:41:13-49
+53        </activity>
+54        <activity
+54-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:44:9-47:20
+55            android:name="com.example.meri_zameen.ImageAnalysis"
+55-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:44:19-48
+56            android:screenOrientation="portrait" >
+56-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:45:13-49
+57        </activity>
+58        <activity
+58-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:48:9-56:20
+59            android:name="com.example.meri_zameen.SplashActivity"
+59-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:48:19-49
+60            android:screenOrientation="portrait" >
+60-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:49:13-49
+61            <intent-filter>
+61-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:51:13-55:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:52:17-69
+62-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:52:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:54:17-77
+64-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:54:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:57:9-60:20
+68            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+68-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:58:13-76
+69            android:theme="@style/Base.Theme.AppCompat" >
+69-->C:\Users\Marhaba\Desktop\Meri-Zameen\Android Application\app\src\main\AndroidManifest.xml:59:13-56
+70        </activity>
+71        <activity
+71-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+72            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+72-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+73            android:excludeFromRecents="true"
+73-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+74            android:exported="true"
+74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+75            android:launchMode="singleTask"
+75-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+77            <intent-filter>
+77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+78                <action android:name="android.intent.action.VIEW" />
+78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+81                <category android:name="android.intent.category.BROWSABLE" />
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+82
+83                <data
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+84                    android:host="firebase.auth"
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+85                    android:path="/"
+85-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+86                    android:scheme="genericidp" />
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+90            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+91            android:excludeFromRecents="true"
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+92            android:exported="true"
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+93            android:launchMode="singleTask"
+93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+95            <intent-filter>
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+96                <action android:name="android.intent.action.VIEW" />
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+99                <category android:name="android.intent.category.BROWSABLE" />
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+100
+101                <data
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+102                    android:host="firebase.auth"
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+103                    android:path="/"
+103-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+104                    android:scheme="recaptcha" />
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+105            </intent-filter>
+106        </activity>
+107
+108        <service
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+109            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+110            android:enabled="true"
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+112            <intent-filter>
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+113                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+116            </intent-filter>
+117        </service>
+118        <service
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+119            android:name="com.google.firebase.components.ComponentDiscoveryService"
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\5015b92a9fa926ee6d6d374378725eae\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+121            android:exported="false" >
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+122            <meta-data
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+123                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\894f0d528dfe4e9c06b382812e4b3c99\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\1621d29633fd960140413c28db65c2f3\jetified-firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+126                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+126-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\1621d29633fd960140413c28db65c2f3\jetified-firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\1621d29633fd960140413c28db65c2f3\jetified-firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+128        </service>
+129
+130        <activity
+130-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b8c0af6680e36ba1b82d2fa8d9a3994b\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+131-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b8c0af6680e36ba1b82d2fa8d9a3994b\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+132            android:exported="false"
+132-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b8c0af6680e36ba1b82d2fa8d9a3994b\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+133-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b8c0af6680e36ba1b82d2fa8d9a3994b\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+134
+135        <provider
+135-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\5015b92a9fa926ee6d6d374378725eae\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+136            android:name="com.google.firebase.provider.FirebaseInitProvider"
+136-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\5015b92a9fa926ee6d6d374378725eae\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+137            android:authorities="com.example.meri_zameen.firebaseinitprovider"
+137-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\5015b92a9fa926ee6d6d374378725eae\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\5015b92a9fa926ee6d6d374378725eae\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+139            android:exported="false"
+139-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\5015b92a9fa926ee6d6d374378725eae\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+140            android:initOrder="100" />
+140-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\5015b92a9fa926ee6d6d374378725eae\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+141
+142        <meta-data
+142-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\777122b98f89f179562e9e07cb8c342e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+143            android:name="com.google.android.gms.version"
+143-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\777122b98f89f179562e9e07cb8c342e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+144            android:value="@integer/google_play_services_version" />
+144-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\777122b98f89f179562e9e07cb8c342e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+145
+146        <provider
+146-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b3d313329b11b0a1bfcc6d6e527c2911\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+147            android:name="androidx.startup.InitializationProvider"
+147-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b3d313329b11b0a1bfcc6d6e527c2911\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+148            android:authorities="com.example.meri_zameen.androidx-startup"
+148-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b3d313329b11b0a1bfcc6d6e527c2911\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+149            android:exported="false" >
+149-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b3d313329b11b0a1bfcc6d6e527c2911\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+150            <meta-data
+150-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b3d313329b11b0a1bfcc6d6e527c2911\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+151                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+151-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b3d313329b11b0a1bfcc6d6e527c2911\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+152                android:value="androidx.startup" />
+152-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\b3d313329b11b0a1bfcc6d6e527c2911\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+153            <meta-data
+153-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\bdc5448bf36ec323f6e457a62e23fcc1\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+154                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+154-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\bdc5448bf36ec323f6e457a62e23fcc1\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+155                android:value="androidx.startup" />
+155-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Marhaba\.gradle\caches\transforms-2\files-2.1\bdc5448bf36ec323f6e457a62e23fcc1\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+156        </provider>
+157    </application>
+158
+159</manifest>
